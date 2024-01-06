@@ -10,7 +10,7 @@ body {
 }
 
 .section {
-    /* width: 1440px; */
+    width: 1440px;
     height: 592px;
     background-color: var(--section-background-color);
     /* margin-left: var(--section-margin-left); */
@@ -28,7 +28,7 @@ body {
 }
 
 .child1 {
-    margin: 40px;
+    /* margin: 40px; */
 
 }
 
@@ -135,9 +135,9 @@ body {
 
 .page-footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: var(--footer-background-color);
-    /* width: 1440px; */
+    width: 1440px;
     height: 298px;
     flex-shrink: 0;
 }
